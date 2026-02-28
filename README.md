@@ -2,9 +2,9 @@
 
 Halo! Saya **Lovien Najla Dhafiyah**, mahasiswi **Universitas Bengkulu** Program Studi **Informatika** Angkatan **2024** dengan **NPM G1A024055**.
 Website ini dibuat sebagai bagian dari pemenuhan tugas mata kuliah **Proyek Pemrograman Web**. Website ini berisi simulasi **rangkaian lampu** dengan dua skema:
-* Rangkaian **3 lampu**: Seri dan Paralel
-* Rangkaian **4 lampu**: Seri, Paralel, dan Group (AB & CD)
-* 
+* 1. Rangkaian **3 lampu**: Seri dan Paralel
+* 2. Rangkaian **4 lampu**: Seri, Paralel, dan Group (AB & CD)
+  
 ---
 
 ## Struktur Folder dan File
@@ -15,7 +15,7 @@ Berikut susunan direktori dalam proyek ini:
 ├── css
 │   └── style.css
 ├── js
-│   └── script.js
+│   └── index.js
 └── images
     ├── on.jpg
     └── of.jpg
@@ -111,9 +111,3 @@ Website ini juga memudahkan pemahaman konsep **rangkaian listrik digital** melal
 ---
 
 Terima kasih telah mengunjungi dan membaca README ini.
-
----
-
-Kalau mau, saya bisa buatkan **versi README dengan screenshot tampilan website** agar lebih menarik di GitHub.
-
-Apakah mau saya buatkan juga versi dengan screenshot?
