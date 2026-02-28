@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rangkaian Lampu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbar">
+    <a href="#lampu3">Rangkaian 3 Lampu</a>
+    <a href="#lampu4">Rangkaian 4 Lampu</a>
+</div>
+
+<section id="lampu3" class="section section-1">
+<div class="card">
+<h2>Rangkaian 3 Lampu</h2>
+
+<img id="l1" src="of.jpg">
+<img id="l2" src="of.jpg">
+<img id="l3" src="of.jpg">
+
+<br>
+
+<button class="btn-seri3" onclick="seri3()">Seri</button>
+<button class="btn-paralel3" onclick="paralel3()">Paralel</button>
+
+<h3 id="status1"></h3>
+
+</div>
+</section>
+<section id="lampu4" class="section">
+<div class="card">
+<h2>Rangkaian 4 Lampu</h2>
+
+<img id="a" src="of.jpg">
+<img id="b" src="of.jpg">
+<img id="c" src="of.jpg">
+<img id="d" src="of.jpg">
+
+<br>
+
+<button class="btn-seri4" onclick="seri4()">Seri</button>
+<button class="btn-paralel4" onclick="paralel4()">Pararel</button>
+<button class="btn-group4" onclick="group4()">AB & CD</button>
+
+<h3 id="status2"></h3>
+</div>
+
+</section>
+
+<script src="index.js"></script>
+
+</body>
+</html>
