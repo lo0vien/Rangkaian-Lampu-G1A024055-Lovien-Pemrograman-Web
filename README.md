@@ -107,4 +107,4 @@ Website ini juga memudahkan pemahaman konsep rangkaian listrik digital melalui s
 
 ---
 
-Terima kasih telah mengunjungi dan membaca README ini.
+Terima kasih telah mengunjungi dan membaca README ini !.
