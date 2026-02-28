@@ -1,9 +1,9 @@
 # Website Rangkaian Lampu – Proyek Pemrograman Web
 
-Halo! Saya **Lovien Najla Dhafiyah**, mahasiswi **Universitas Bengkulu** Program Studi **Informatika** Angkatan **2024** dengan **NPM G1A024055**.
-Website ini dibuat sebagai bagian dari pemenuhan tugas mata kuliah **Proyek Pemrograman Web**. Website ini berisi simulasi **rangkaian lampu** dengan dua skema:
-* 1. Rangkaian **3 lampu**: Seri dan Paralel
-* 2. Rangkaian **4 lampu**: Seri, Paralel, dan Group (AB & CD)
+Halo! Saya **Lovien Najla Dhafiyah**, mahasiswi Universitas Bengkulu Program Studi Informatika Angkatan 2024 dengan NPM G1A024055.
+Website ini dibuat sebagai bagian dari pemenuhan tugas mata kuliah Proyek Pemrograman Web. Website ini berisi simulasi **Rangkaian Lampu** dengan dua skema:
+* Rangkaian **3 lampu**: Seri dan Paralel
+* Rangkaian **4 lampu**: Seri, Paralel, dan Group (AB & CD)
   
 ---
 
@@ -12,24 +12,21 @@ Berikut susunan direktori dalam proyek ini:
 
 ```
 ├── index.html  
-├── css
-│   └── style.css
-├── js
-│   └── index.js
-└── images
-    ├── on.jpg
-    └── of.jpg
+├── style.css   
+├── index.js
+├── on.jpg
+└── of.jpg
 ```
 
 ### Penjelasan Struktur
 
-1. **Folder css**
+1. **File style.css**
    Berisi file `style.css` yang mengatur seluruh tampilan website (UI), termasuk warna background, tombol, layout, dan efek hover.
 
-2. **Folder js**
+2. **File index.js**
    Berisi file `script.js` yang mengatur logika interaktif lampu, termasuk seri, paralel, dan group.
 
-3. **Folder images**
+3. **file on.jpg dan of.jpg**
    Berisi gambar lampu dalam keadaan `on.jpg` dan `of.jpg` yang digunakan untuk simulasi lampu.
 
 4. **File index.html**
@@ -45,7 +42,7 @@ Berikut beberapa bagian kode penting dalam proyek ini.
 
 ```html
 <link rel="stylesheet" href="css/style.css">
-<script src="js/script.js"></script>
+<script src="js/index.js"></script>
 ```
 
 Kode ini menghubungkan file CSS untuk styling dan file JS untuk logika lampu.
@@ -93,20 +90,20 @@ function seri3(){
 }
 ```
 
-Kode ini mengatur pola nyala-mati lampu secara **seri satu per satu** dan mengubah statusnya pada halaman.
+Kode ini mengatur pola nyala-mati lampu secara seri satu per satu dan mengubah statusnya pada halaman.
 
 ---
 
 ## Tujuan Pembuatan Website
 
-Website ini dibuat sebagai media pembelajaran **interaktif** dalam memahami konsep:
+Website ini dibuat sebagai media pembelajaran interaktif dalam memahami konsep:
 
 * HTML dasar dan struktur folder
 * CSS untuk styling dan efek hover
 * JavaScript untuk logika interaktif lampu
 * Penggunaan gambar sebagai elemen visual
 
-Website ini juga memudahkan pemahaman konsep **rangkaian listrik digital** melalui simulasi interaktif.
+Website ini juga memudahkan pemahaman konsep rangkaian listrik digital melalui simulasi interaktif.
 
 ---
 
